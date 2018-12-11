@@ -30,7 +30,7 @@ public:
   /*
   * Initialize PID.
   */
-  void Init(double Kp, double Ki, double Kd);
+  void Init(double Kp_val, double Ki_val, double Kd_val);
 
   /*
   * Update the PID error variables given cross track error.
